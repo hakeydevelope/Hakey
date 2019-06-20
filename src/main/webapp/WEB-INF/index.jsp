@@ -83,7 +83,7 @@
 						<li class="active">
 							<div class="showtitle" style="width: 100px;">
 								<img src="img/leftimg.png" />账号管理
-							</div> <a href="userInfo.html"><span
+							</div> <a href="account-list.jsp"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
 								class="sub-title">账号管理</span></a>
 						</li>
@@ -146,10 +146,10 @@
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />人工未接
+								<img src="img/leftimg.png" />人工未接听统计
 							</div> <a href="#"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
-								class="sub-title">队列统计</span></a>
+								class="sub-title">人工未接听统计</span></a>
 						</li>
 					</ul>
 				</div>
@@ -202,14 +202,14 @@
 				<!--主体内容-->
 				<div class="main-layout-body">
 					<!--tab 切换-->
-					<div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
+					<div class="layui-tab layui-tab-brief main-layout-tab"  >
 					  <ul class="layui-tab-title">
 					    <li class="layui-this welcome">后台主页</li>
 					  </ul>
 					  <div class="layui-tab-content">
 					    <div class="layui-tab-item layui-show" style="background: #f5f5f5;">
 					    	<!--1-->
-					    	<iframe src="welcome.jsp" width="100%" height="100%" name="iframe" scrolling="auto" class="iframe" framborder="0"></iframe>
+					    	<iframe src="account-list.jsp" width="100%" height="100%" name="iframe" class="iframe"></iframe>
 					    	<!--1end-->
 					    </div>
 					  </div>
@@ -219,7 +219,7 @@
 		</div>
 		<script type="text/javascript">
 			var scope={
-				link:'./welcome.jsp'
+				link:'./account-list.jsp'
 			}
 		</script>
 		<script src="${ctxStatic}/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
