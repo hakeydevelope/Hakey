@@ -6,7 +6,7 @@
 		<meta name="renderer" content="webkit" />
   		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>网站后台管理模版111</title>
+		<title>华琪软通呼叫中心</title>
 		<link rel="stylesheet" type="text/css" href="${ctxStatic}/admin/layui/css/layui.css"/>
 		<link rel="stylesheet" type="text/css" href="${ctxStatic}/admin/css/admin.css"/>
 		
@@ -77,7 +77,7 @@
 				<div class="sBox">
 					<div class="subNav sublist-down">
 						<span class="title-icon glyphicon glyphicon-chevron-down"></span><span
-							class="sublist-title">用户中心</span>
+							class="sublist-title">知识库管理</span>
 					</div>
 					<ul class="navContent" style="display: block">
 						<li class="active">
@@ -89,60 +89,67 @@
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />消息中心
+								<img src="img/leftimg.png" />知识库
 							</div> <a href="message.html"><span
 								class="sublist-icon glyphicon glyphicon-envelope"></span><span
-								class="sub-title">消息中心</span></a>
+								class="sub-title">知识库</span></a>
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />短信
+								<img src="img/leftimg.png" />审核流程
 							</div> <a href="smsInfo.html"><span
 								class="sublist-icon glyphicon glyphicon-bullhorn"></span><span
-								class="sub-title">短信</span></a>
+								class="sub-title">审核流程</span></a>
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />实名认证
+								<img src="img/leftimg.png" />账号组
 							</div> <a href="identify.html"><span
 								class="sublist-icon glyphicon glyphicon-credit-card"></span><span
-								class="sub-title">实名认证</span></a>
+								class="sub-title">账号组</span></a>
 						</li>
 					</ul>
 				</div>
 				<div class="sBox">
 					<div class="subNav sublist-up">
 						<span class="title-icon glyphicon glyphicon-chevron-up"></span><span
-							class="sublist-title">关于我们</span>
+							class="sublist-title">呼叫统计</span>
 					</div>
 					<ul class="navContent" style="display: none">
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />添加新闻
+								<img src="img/leftimg.png" />中继统计
 							</div> <a href="#"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
-								class="sub-title">添加新闻</span></a>
+								class="sub-title">中继统计</span></a>
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />添加新闻
+								<img src="img/leftimg.png" />坐席统计
 							</div> <a href="#"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
-								class="sub-title">新闻管理</span></a>
+								class="sub-title">坐席统计</span></a>
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />添加新闻
+								<img src="img/leftimg.png" />分机统计
 							</div> <a href="#"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
-								class="sub-title">添加新闻</span></a>
+								class="sub-title">分机统计</span></a>
 						</li>
 						<li>
 							<div class="showtitle" style="width: 100px;">
-								<img src="img/leftimg.png" />新闻管理
+								<img src="img/leftimg.png" />队列统计
 							</div> <a href="#"><span
 								class="sublist-icon glyphicon glyphicon-user"></span><span
-								class="sub-title">新闻管理</span></a>
+								class="sub-title">队列统计</span></a>
+						</li>
+						<li>
+							<div class="showtitle" style="width: 100px;">
+								<img src="img/leftimg.png" />人工未接
+							</div> <a href="#"><span
+								class="sublist-icon glyphicon glyphicon-user"></span><span
+								class="sub-title">队列统计</span></a>
 						</li>
 					</ul>
 				</div>
