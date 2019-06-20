@@ -34,7 +34,7 @@
 							</div>
 							<button class="layui-btn layui-btn-normal">搜索</button>
 						</div>
-							<div class="page-wrap">
+						<div class="page-wrap">
 							<ul class="pagination">
 								<li class="disabled"><span>«</span></li>
 								<li class="active"><span>1</span></li>

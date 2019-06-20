@@ -1517,13 +1517,15 @@
   height: 128px;
 }
 .page-wrap {
+	width: 30%;
+	height: 40px;
 }
 .pagination {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   text-align: center;
-  margin: 10px 0;
+  margin-top: 20px;
   font-size: 0;
 }
 .pagination li {
